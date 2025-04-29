@@ -170,7 +170,7 @@
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(250,250,248,1.0)',
-                interactive: true,
+                interactive: false,
             }
         }
         map.createPane('pane_Pays_0');
@@ -178,7 +178,7 @@
         map.getPane('pane_Pays_0').style['mix-blend-mode'] = 'normal';
         var layer_Pays_0 = new L.geoJson(json_Pays_0, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_Pays_0',
             layerName: 'layer_Pays_0',
             pane: 'pane_Pays_0',
